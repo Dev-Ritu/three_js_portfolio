@@ -8,7 +8,7 @@ import { workExperiences } from '../constants.js';
 import  { Dev } from '../components/Dev.jsx';
 
 const WorkExperience = () => {
-    const [animationName, setAnimationName] = useState('idle');
+    const [animationName, setAnimationName] = useState('salute');
   
     return (
       <section className="c-space my-20" id="work">
@@ -29,8 +29,8 @@ const WorkExperience = () => {
                 <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} />
   
                 <Suspense fallback={<CanvasLoader />}>
-                  {/* <Dev /> Render ReactLogo_2 here */}
-                </Suspense>
+                <Developer position-y={-2} scale={2} animationName={animationName} />
+             </Suspense>
               </Canvas>
             </div>
   

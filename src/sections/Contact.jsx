@@ -68,17 +68,18 @@ const Contact = () => {
     <section className="c-space my-20" id="contact">
       {alert.show && <Alert {...alert} />}
 
-      <div className="relative min-h-screen flex items-center justify-center flex-col">
-        <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 min-h-screen" />
+      <div className="relative flex items-center justify-center flex-col min-h-screen px-4 sm:px-8 lg:px-16 bg-dark-blue">
+      <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 min-h-screen h-full" />
 
-        <div className="contact-container">
-          <h3 className="head-text">Let's talk</h3>
+        <div className="contact-container max-w-3xl w-full bg-navy bg-opacity-80 p-8 rounded-lg shadow-lg">
+        <h3 className="head-text">Let's talk</h3>
           <p className="text-lg text-white-600 mt-3">
             Whether you’re looking to build a new website, improve your existing platform, or bring a unique project to
             life, I’m here to help.
           </p>
 
-          <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
+          <form ref={formRef} onSubmit={handleSubmit}         className="mt-10 flex flex-col space-y-6"
+          >
             <label className="space-y-3">
               <span className="field-label">Full Name</span>
               <input
