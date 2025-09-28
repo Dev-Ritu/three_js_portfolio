@@ -230,14 +230,22 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 
 export const workExperiences = [
   {
-    id: 1,
-    name: 'Innostax',
-    pos: 'Software Developer Engineer - 1 Band E',
-    duration: 'June 2024 - Present',
-    title:
-      'In my current role as a Software Developer Engineer - 1 Band E, I have gained expertise in developing and optimizing complex features, ensuring high-quality code and seamless user experiences. I have contributed to large-scale projects, collaborating closely with cross-functional teams to enhance functionality and performance.',
-    icon: 'https://innostax.com/wp-content/uploads/2023/09/cropped-inno-Fav-icon-150x150.webp',
-    animation: 'clapping',
+    "id": 0,
+    "name": "Quarks",
+    "pos": "Software Engineer",
+    "duration": "March 2025 - Present",
+    "title": "Currently, as a Software Engineer at Quarks, I am focused on designing and implementing scalable solutions for cutting-edge projects. My responsibilities include developing robust features, optimizing system performance, and collaborating with product teams to deliver high-quality software that enhances user experience and meets business objectives.",
+    "icon": "https://www.qtsolv.com/wp-content/themes/qtsolvtheme/assets/images/svg/logo.svg",
+    "animation": "clapping"
+  },
+  {
+    "id": 1,
+    "name": "Innostax",
+    "pos": "Software Developer Engineer - 1 Band E",
+    "duration": "June 2024 - February 2025",
+    "title": "During my tenure as a Software Developer Engineer - 1 Band E at Innostax, I was instrumental in developing and optimizing complex features across various projects. I gained hands-on expertise in ensuring high-quality code and seamless user experiences, contributing significantly to functionality enhancements and performance improvements within cross-functional teams.",
+    "icon": "https://innostax.com/wp-content/uploads/2023/09/cropped-inno-Fav-icon-150x150.webp",
+    "animation": "clapping"
   },
   {
     id: 2,
